@@ -1,8 +1,8 @@
 FROM node
-WORKDIR /nemo-links
-ADD app /nemo-links/app
-COPY app.js /nemo-links
-COPY package.json /nemo-links
+WORKDIR /likes
+ADD app /likes/app
+COPY app.js /likes
+COPY package.json /likes
 RUN npm install
 CMD npm start
 
