@@ -7,7 +7,7 @@ const devConf = {
 };
 
 const prodConf = {
-	db: "mongodb://mongo-links:27017/likes",
+	db: "mongodb://mongo-likes:27017/likes",
 	listenPort: 8080,
 	jwtSecret: 'secret',
 };
